@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@theme {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-subtle: var(--subtle);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+}
+html[data-mode="dark"] {
+  --background: #292929;
+  --surface: #4F4F4F;
+  --subtle: #181d1a;
+  --text: #FFFFFF;
+  --muted: #8d9891;
+  --border: #27302b;
+  --on-accent: #06110c;
+}
+html[data-mode="light"] {
+  --background: #FFFFFF;
+  --surface: #FAFAFA;
+  --subtle: #eef2ef;
+  --text: #282828;
+  --muted: #65716a;
+  --border: #dce4df;
+  --on-accent: #06110c;
+}
+html[data-theme="emerald"] {
+  --accent: #34d399;
+}
+html[data-theme="violet"] {
+  --accent: #a78bfa;
+}
+html[data-theme="blue"] {
+  --accent: #60a5fa;
+}
+html[data-theme="orange"] {
+  --accent: #fb923c;
+}
+html {
+  scroll-behavior: smooth;
+  background: var(--background);
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: var(--background);
+  color: var(--text);
+  transition:
+    background-color 0.22s ease,
+    color 0.22s ease;
+}
+::selection {
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* Tailwind's slate-300 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* Tailwind's slate-400 */
+}
+
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(15deg);
+  }
+
+  50% {
+    transform: translate(0px, 0px) rotate(-15deg);
+  }
+}
+
