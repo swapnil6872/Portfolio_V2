@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import jobuniverseImage from "../src/assets/projects/jobuniverse2.png";
+import jobuniverseImage from "../assets/projects/jobuniverse2.png";
 
 
 function Portfolio() {

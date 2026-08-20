@@ -1,5 +1,5 @@
 import React from 'react';
-import swapnil from "../src/assets/images/swapnil.jpg";
+import swapnil from "../assets/images/swapnil.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import Footer from '../components/Footer';
 

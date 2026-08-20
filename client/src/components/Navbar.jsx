@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import swapnilbg from '../src/assets/images/swapnilbg.png'
+import swapnilbg from '../assets/images/Swapnilbg.png'
+
 function Navbar() {
-  // Added 'path' to each item for React Router
+  
   const navItems = [
     { name: 'About Me', path: '/',icon: "ph-user" },
     { name: 'Skills', path: '/skills',icon: "ph-code", },
