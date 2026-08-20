@@ -3,7 +3,7 @@ import swapnil from "../assets/images/swapnil.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import Footer from '../components/Footer';
 import jobuniverse2 from '../assets/projects/jobuniverse2.png';
-import wanderlust from '../assets/projects/wanderlust.png';
+import Wanderlust from '../assets/projects/Wanderlust.png';
 
 function About() {
   return (
@@ -411,7 +411,7 @@ function About() {
               <div className="relative aspect-[16/10] overflow-hidden border border-border bg-surface">
 
                             <img
-  src={wanderlust}
+  src={Wanderlust}
   alt="JobUniverse project"
   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 />
