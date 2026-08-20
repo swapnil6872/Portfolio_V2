@@ -9,16 +9,16 @@ function About() {
   return (
 
    
-    <div className="flex-1 bg-background text-text min-h-screen max-[764px]:mt-14 ">
-
+    <div className="relative overflow-hidden flex-1 bg-background text-text min-h-screen max-[764px]:mt-14 ">
+    
+     {/* Decorative background */}
+<    div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
 
       {/* --- HERO SECTION --- */}
-   
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-10 px-6 pt-10 pb-16 sm:px-8 sm:pt-16 lg:flex-row lg:gap-12 lg:px-12 lg:pt-40">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-10 px-6 pt-10 pb-16 sm:px-8 sm:pt-16 lg:flex-row lg:gap-12 lg:px-12 lg:pt-40 ">
 
         {/* LEFT COLUMN: Text Content */}
         <div className="flex w-full flex-col items-center text-center space-y-5 lg:w-1/2 lg:items-start lg:text-left lg:space-y-6">
-
           <h3 className="text-lg font-semibold uppercase tracking-widest text-text mb-0 sm:text-xl md:text-2xl">
             Hi, I'm a Freelancer
           </h3>

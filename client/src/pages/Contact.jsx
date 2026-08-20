@@ -197,7 +197,10 @@ function Contact() {
   )}&output=embed`;
 
   return (
-    <div className="min-h-screen flex-1 bg-background text-text max-[764px]:mt-14">
+    <div className="relative overflow-hidden min-h-screen flex-1 bg-background text-text max-[764px]:mt-14">
+
+     {/* Decorative background */}
+<    div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
 
       {/*HEADER*/}
 

@@ -94,8 +94,10 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-text">
-
+    <div className="relative overflow-hidden min-h-screen bg-background text-text max-[764px]:mt-14">
+   
+   {/* Decorative background */}
+  <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
       {/* HERO */}
       <section className="border-b border-zinc-700/50">
         <div className="mx-auto max-w-6xl px-6 py-20 text-center sm:px-8 lg:px-12 lg:py-24">

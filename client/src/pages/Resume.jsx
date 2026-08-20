@@ -4,7 +4,10 @@ import SwapnilResume from '../assets/SwapnilResume.pdf'
 
 const Resume = () => {
   return (
-    <div className="min-h-screen bg-background text-text transition-colors duration-200">
+    <div className="relative overflow-hidden min-h-screen bg-background text-text transition-colors duration-200 max-[764px]:mt-14">
+
+      {/* Decorative background */}
+      <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
 
       {/* ================= TOP SECTION ================= */}
       <section className="border-b border-border">
