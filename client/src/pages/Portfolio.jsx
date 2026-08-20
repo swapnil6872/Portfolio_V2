@@ -1,6 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import jobuniverseImage from "../assets/projects/jobuniverse2.png";
+import MernAuth from "../assets/projects/MernAuth.png";
+import Wanderlust from "../assets/projects/Wanderlust.png";
 
 
 function Portfolio() {
@@ -48,7 +50,7 @@ function Portfolio() {
         "A travel listing web application where users can explore, create and manage travel listings.",
       category: ["Web", "Frontend", "Backend"],
       type: "Full Stack",
-      image: "../src/assets/projects/Wanderlust.png", 
+      image: Wanderlust, 
       tech: [
         "EJS",
         "Node.js",
@@ -68,7 +70,7 @@ function Portfolio() {
         "A MERN authentication project with user registration, login and protected application functionality.",
       category: ["Web", "Frontend", "Backend"],
       type: "Full Stack",
-      image: "../src/assets/projects/MernAuth.png", 
+      image: MernAuth, 
       tech: [
         "React",
         "Node.js",

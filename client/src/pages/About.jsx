@@ -2,6 +2,8 @@ import React from 'react';
 import swapnil from "../assets/images/swapnil.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import Footer from '../components/Footer';
+import jobuniverse2 from '../assets/projects/jobuniverse2.png';
+import wanderlust from '../assets/projects/wanderlust.png';
 
 function About() {
   return (
@@ -365,7 +367,7 @@ function About() {
               <div className="relative aspect-[16/10] overflow-hidden border border-border bg-surface">
 
                 <img
-  src="../src/assets/projects/jobuniverse2.png"
+  src={jobuniverse2}
   alt="JobUniverse project"
   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 />
@@ -409,7 +411,7 @@ function About() {
               <div className="relative aspect-[16/10] overflow-hidden border border-border bg-surface">
 
                             <img
-  src="../src/assets/projects/wanderlust.png"
+  src={wanderlust}
   alt="JobUniverse project"
   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 />
