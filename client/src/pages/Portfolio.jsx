@@ -235,7 +235,7 @@ function Portfolio() {
                     </div>
 
                     <button
-                      onClick={() => navigate(`/portfolio/${project.slug}`)}
+                      // onClick={() => navigate(`/portfolio/${project.slug}`)}
                       aria-label={`View ${project.title}`}
                       className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-background transition-all duration-300 group-hover:border-accent group-hover:bg-accent"
                     >
@@ -261,10 +261,11 @@ function Portfolio() {
                   {/* Buttons */}
                   <div className="mt-6 flex flex-wrap items-center gap-3">
                     <button
-                      onClick={() => navigate(`/portfolio/${project.slug}`)}
+                      // onClick={() => navigate(`/portfolio/${project.slug}`)}
                       className="flex flex-1 items-center justify-center gap-2 rounded-full bg-accent px-4 py-2.5 text-xs font-semibold text-text transition-all duration-300 hover:bg-text hover:text-background sm:text-sm"
                     >
-                      View Project
+                      <a href={project.live} className=""> View Project</a>
+                     
                       <i className="ph ph-arrow-right" />
                     </button>
 
