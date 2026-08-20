@@ -197,7 +197,7 @@ function Contact() {
   )}&output=embed`;
 
   return (
-    <div className="min-h-screen flex-1 bg-background text-text">
+    <div className="min-h-screen flex-1 bg-background text-text max-[764px]:mt-14">
 
       {/*HEADER*/}
 

@@ -153,7 +153,7 @@ function Skills() {
   ];
 
   return (
-    <div className="min-h-screen flex-1 overflow-hidden bg-background text-text">
+    <div className="min-h-screen flex-1 overflow-hidden bg-background text-text max-[764px]:mt-14">
 
       {/* =====================================================
           HERO

@@ -104,7 +104,7 @@ function Portfolio() {
   }, [activeFilter, search]);
 
   return (
-    <div className="min-h-screen flex-1 overflow-hidden bg-background text-text">
+    <div className="min-h-screen flex-1 overflow-hidden bg-background text-text max-[764px]:mt-14">
       
       {/* HERO */}
       <section className="relative mx-auto w-full max-w-6xl px-6 pb-10 pt-12 sm:px-8 sm:pt-16 lg:px-12 lg:pt-28">
