@@ -1,5 +1,6 @@
 import React from "react";
 import { Download, GraduationCap, Code2, User, Heart } from "lucide-react";
+import SwapnilResume from '../assets/SwapnilResume.pdf'
 
 const Resume = () => {
   return (
@@ -19,7 +20,7 @@ const Resume = () => {
           </p>
 
           <a
-            href="/resume.pdf"
+            href={SwapnilResume}
             download
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-on-accent transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90"
           >
